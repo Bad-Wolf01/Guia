@@ -13,3 +13,26 @@ hr {
     height: 1px;
     background-color: white;
 }
+
+.grupoComandos {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 15px;
+    flex-direction: row;
+}
+
+.cartãoComando {
+    width: calc(25% - 15px);
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 5px;
+    transition: 150ms;
+    background-color: rgb(162, 0, 255);
+}
+
+.cartãoComando:hover {
+    background-color: blue;
+    scale: 105%;
+    transform:translateY(-5%);
+
+}
