@@ -82,7 +82,7 @@ main {
     height: 40px;
     object-fit: contain;
     display: block;
-    position: absolute;
+    
     top: 10px;
     left: 10px;
 }
